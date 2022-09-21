@@ -1,5 +1,13 @@
 # Issue Sample
 
+Run:
+
+```bash
+yarn        # <== install
+yarn build  # <== generate production build
+```
+
+
 ## Context
 
 When Vite uses a worker (which emits a [seperate chunk in the production build](https://vitejs.dev/guide/features.html#import-with-query-suffixes)) and is configured to export a build manifest, eg:
