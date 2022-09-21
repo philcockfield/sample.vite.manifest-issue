@@ -2,8 +2,7 @@
 
 ## Context
 
-When Vite uses a worker (which emits a [seperate chunk in teh production build](https://vitejs.dev/guide/features.html#import-with-query-suffixes)) 
-and is configured to export a build manifest, eg:
+When Vite uses a worker (which emits a [seperate chunk in the production build](https://vitejs.dev/guide/features.html#import-with-query-suffixes)) and is configured to export a build manifest, eg:
 
 ```ts
 // vite.config.mts
@@ -21,7 +20,7 @@ export default config;
 ```
 
 The generated manifest is stomped on during compilation.  This looks like some kind of race condition where two 
-different processes build but do not coordinate to produce a unified final manifest (speculation)--??
+different processes build but do not coordinate to produce a unified final manifest (speculation) -??
 
 ## Warning Output 
 
