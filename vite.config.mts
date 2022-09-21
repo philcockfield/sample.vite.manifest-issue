@@ -1,11 +1,9 @@
-import { BuildOptions, defineConfig, LibraryOptions, UserConfigExport } from 'vite';
+import { UserConfigExport } from 'vite';
 
-export default () => {
-  const config: UserConfigExport = {
-    build: {
-      manifest: true,
-    },
-  };
-
-  return config;
+const config: UserConfigExport = {
+  build: {
+    manifest: true,
+  },
 };
+
+export default config;
