@@ -1,5 +1,7 @@
 # Issue Sample
 
+[Vite Issue #10190](https://github.com/vitejs/vite/issues/10190)
+
 Run:
 
 ```bash
